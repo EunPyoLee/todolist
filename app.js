@@ -13,7 +13,8 @@ app.set('view engine', 'ejs');
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(express.static("public"));
 
-mongoose.connect("mongodb+srv://admin-Jason:Bren@0506@cluster0-t5eec.mongodb.net/todolistDB", {useNewUrlParser:true});
+mongoose.connect("mongodb+srv://", {useNewUrlParser:true});
+//For Security Reson, deleted admin ID, PW info
 
 
 
